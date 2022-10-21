@@ -6,7 +6,7 @@
 
   <groupId>postgre</groupId>
   <artifactId>conexion-mvc-structure</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>Archetype - conexion-mvc-structure</name>
@@ -30,10 +30,6 @@
     </extensions>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
-        </plugin>
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
           <version>3.0.1</version>

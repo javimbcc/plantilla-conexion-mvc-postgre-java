@@ -30,11 +30,33 @@ under the License.
     <fileSet filtered="true" packaged="true">
       <directory>src/main/resources</directory>
     </fileSet>
-    <fileSet filtered="true" packaged="true">
-      <directory>src/test/java</directory>
+    <!-- Comenzamos a meter los directorios de el patron mvc añadiendo utils  -->
+    <fileSet filtered="true" packaged="false">
+      <directory>src/main/java/modelos</directory>
+      
     </fileSet>
-    <fileSet filtered="true" packaged="true">
-      <directory>src/test/resources</directory>
+    
+    <fileSet filtered="true" packaged="false">
+      <directory>src/main/java/vistas</directory>
     </fileSet>
+    
+    <fileSet filtered="true" packaged="false">
+      <directory>src/main/java/utils</directory>
+    </fileSet>
+    
+    <!-- Empezamos a crear los contenidos de la clase modelo -->
+    
+    <fileSet filtered="true" packaged="false">
+      <directory>src/main/java/modelos/conexiones</directory>
+    </fileSet>
+    
+    <fileSet filtered="true" packaged="false">
+      <directory>src/main/java/modelos/consultas</directory>
+    </fileSet>
+    
+    <fileSet filtered="true" packaged="false">
+      <directory>src/main/java/modelos/DTOs</directory>
+    </fileSet>
+    
   </fileSets>
 </archetype-descriptor>
